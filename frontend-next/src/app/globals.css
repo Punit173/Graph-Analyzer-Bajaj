@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07111f;
+  --foreground: #e2e8f0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tree-v,
+.tree-h {
+  background: linear-gradient(180deg, rgba(34, 211, 238, 0.9), rgba(56, 189, 248, 0.2));
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.15);
+}
+
+.tree-h {
+  background: linear-gradient(90deg, rgba(34, 211, 238, 0.85), rgba(56, 189, 248, 0.18));
+}
+
+.tree-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
